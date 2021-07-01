@@ -20,5 +20,12 @@
         android:layout_marginBottom="5dp"
         android:src="@drawable/cam_btn_img"
         android:layout_alignParentRight="true"
-        android:layout_alignParentBottom="true"/>
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/round_image_btn"/>
+
+    <ImageView
+        android:id="@+id/testImage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:srcCompat="@tools:sample/avatars" />
 </RelativeLayout>
